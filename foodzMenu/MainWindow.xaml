@@ -20,19 +20,19 @@
             <ColumnDefinition Width="5*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="price1" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="18" Grid.Column="1"/>
-        <TextBlock x:Name="price2" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="18" Grid.Column="1" Grid.Row="1"/>
-        <TextBlock x:Name="price3" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="18" Grid.Column="1" Grid.Row="2"/>
-        <TextBlock x:Name="price4" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="18" Grid.Column="1" Grid.Row="3"/>
-        <TextBlock x:Name="price5" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="18" Grid.Column="1" Grid.Row="4"/>
-        <TextBlock x:Name="price6" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="18" Grid.Column="1" Grid.Row="5"/>
-        <TextBlock x:Name="guacamole" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="18" Grid.Column="1" Grid.Row="6" FontStyle="Italic" Grid.ColumnSpan="3"/>
-        <TextBlock x:Name="item1" TextWrapping="Wrap" FontSize="18" />
-        <TextBlock x:Name="item2" TextWrapping="Wrap" FontSize="18" Grid.Row="1"/>
-        <TextBlock x:Name="item3" TextWrapping="Wrap" FontSize="18" Grid.Row="2"/>
-        <TextBlock x:Name="item4" TextWrapping="Wrap" FontSize="18" Grid.Row="3"/>
-        <TextBlock x:Name="item5" TextWrapping="Wrap" FontSize="18" Grid.Row="4"/>
-        <TextBlock x:Name="item6" TextWrapping="Wrap" FontSize="18" Grid.Row="5"/>
+        <TextBlock x:Name="price1" HorizontalAlignment="Right" FontSize="18" Grid.Column="1"/>
+        <TextBlock x:Name="price2" HorizontalAlignment="Right" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock x:Name="price3" HorizontalAlignment="Right" FontSize="18" Grid.Column="1" Grid.Row="2"/>
+        <TextBlock x:Name="price4" HorizontalAlignment="Right" FontSize="18" Grid.Column="1" Grid.Row="3"/>
+        <TextBlock x:Name="price5" HorizontalAlignment="Right" FontSize="18" Grid.Column="1" Grid.Row="4"/>
+        <TextBlock x:Name="price6" HorizontalAlignment="Right" FontSize="18" Grid.Column="1" Grid.Row="5"/>
+        <TextBlock x:Name="guacamole" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="18"  Grid.Row="6" FontStyle="Italic" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="item1" FontSize="18" />
+        <TextBlock x:Name="item2" FontSize="18" Grid.Row="1"/>
+        <TextBlock x:Name="item3" FontSize="18" Grid.Row="2"/>
+        <TextBlock x:Name="item4" FontSize="18" Grid.Row="3"/>
+        <TextBlock x:Name="item5" FontSize="18" Grid.Row="4"/>
+        <TextBlock x:Name="item6" FontSize="18" Grid.Row="5"/>
 
     </Grid>
 </Window>

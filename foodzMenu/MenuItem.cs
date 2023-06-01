@@ -8,7 +8,7 @@ namespace foodzMenu
 {
     internal class MenuItem
     {
-        public Random Randomizer = new Random();
+        public static Random Randomizer = new Random();
 
         public string[] Proteins = { "Roast beef", "Salami", "Turkey", "Ham", "Pastrami", "Tofu" };
         public string[] Condiments = { "mustard", "brown mustard", "honey mustard", "mayo",
