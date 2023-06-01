@@ -15,14 +15,32 @@ using System.Windows.Shapes;
 
 namespace foodzMenu
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            MakeTheMenu();
+        }
+
+        private void MakeTheMenu()
+        {
+            MenuItem[] menuItems = new MenuItem[5];
+            string guacamolePrice;
+
+            for (int i = 0; i < 5; i++)
+            {
+                menuItems[i] = new MenuItem();
+                if(i >= 3)
+                {
+                    menuItems[i].Breads = new string[]
+                    {
+                        "plain bagel", "onion bagel", "pumpernickel bagel", "everything bagel"
+                    };
+                }
+                menuItems[i].Generate();
+            }
         }
     }
 }
